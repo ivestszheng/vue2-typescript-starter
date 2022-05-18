@@ -7,7 +7,7 @@
     "serve": "vue-cli-service serve --mode production",
     "build": "vue-cli-service build --mode production",
     "build:dev": "vue-cli-service build --mode development",
-    "build:staging": "vue-cli-service build --mode staging",
+    "build:stage": "vue-cli-service build --mode staging",
     "lint": "eslint ./src --ext .vue,.js,.ts",
     "format": "prettier --write ./src",
     "lint-fix": "eslint --fix ./src --ext .vue,.js,.ts",
