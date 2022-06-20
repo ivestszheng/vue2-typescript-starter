@@ -1,7 +1,12 @@
+/*
+ * @Descripttion:
+ * @Date: 2022-05-24 16:14:15
+ * @LastEditTime: 2022-06-20 15:18:27
+ */
 /* eslint-disable */
 import { defineStore } from 'pinia';
 
-export const mainStore = defineStore('store', {
+export const useMainStore = defineStore('store', {
   state: () => {
     return {
       count: 0,
