@@ -1,3 +1,9 @@
+<!--
+ * @Descripttion:
+ * @Date: 2022-05-24 16:14:15
+ * @LastEditTime: 2022-06-20 14:35:14
+-->
+
 # vue2-typescript-starter
 
 Vue2 typescript starter template using composition-api.
@@ -27,25 +33,25 @@ Vue2 typescript starter template using composition-api.
 ### Project setup
 
 ```
-npm install
+yarn install
 ```
 
 ### Compiles and hot-reloads for development
 
 ```
-npm run dev
+yarn dev
 ```
 
 ### Compiles and minifies for production
 
 ```
-npm run build
+yarn build
 ```
 
 ### Run all unit tests
 
 ```
-npm run test
+yarn test
 ```
 
 ### Run single Test
@@ -59,24 +65,24 @@ cd .\tests\unit
 test your file
 
 ```
-npx jest [FilePath like .\example.spec.ts]
+yarn jest [FilePath like .\example.spec.ts]
 ```
 
 ### Format code manually.
 
 ```
-npm run format
-npm run lint-fix
+yarn format
+yarn lint-fix
 ```
 
 ### Use commitizen
 
 ```
-npx cz
+yarn cz
 ```
 
 ### Check dependencies
 
 ```
-npx depcheck
+yarn depcheck
 ```
