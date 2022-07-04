@@ -1,3 +1,8 @@
+<!--
+ * @Descripttion: 
+ * @Date: 2022-05-24 16:14:15
+ * @LastEditTime: 2022-06-20 15:18:43
+-->
 <template>
   <div class="hello">
     <h1>{{ store.count }}</h1>
@@ -12,11 +17,11 @@
 
 <script lang="ts">
 import { defineComponent } from '@vue/composition-api';
-import { mainStore } from '@/store';
+import { useMainStore } from '@/store';
 
 export default defineComponent({
   setup() {
-    const store = mainStore();
+    const store = useMainStore();
     // change Pinia data
     // method 1
     const fn1 = () => {

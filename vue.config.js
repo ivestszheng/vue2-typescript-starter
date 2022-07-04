@@ -1,3 +1,8 @@
+/*
+ * @Descripttion:
+ * @Date: 2022-05-24 16:14:15
+ * @LastEditTime: 2022-06-20 14:26:17
+ */
 /* eslint-disable @typescript-eslint/no-var-requires */
 const path = require('path');
 const { defineConfig } = require('@vue/cli-service');
@@ -7,7 +12,11 @@ function addStyleResource(rule) {
     .use('style-resource')
     .loader('style-resources-loader')
     .options({
-      patterns: [path.resolve(__dirname, './src/styles/variables/*.less'), path.resolve(__dirname, './src/styles/mixins/*.less')],
+      patterns: [
+        path.resolve(__dirname, './src/styles/reset.less'),
+        path.resolve(__dirname, './src/styles/variables/*.less'),
+        path.resolve(__dirname, './src/styles/mixins/*.less'),
+      ],
     });
 }
 
